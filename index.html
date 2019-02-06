@@ -1,5 +1,4 @@
 <html>
-
   <head>
     <meta charset="utf-8">
     <title>BIO</title>
@@ -7,11 +6,34 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
   </head>
-
   <body>
+
 <body background="images/DreamMatrix.jpg">
-    <div class="container">
-      <div class="card text-center">
+  <body>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-movies">
+           <i class="fas fa-film"></i>
+
+
+          </a>
+        </li>
+        <li>
+          <a href="#footer">
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  <div id="content">
+      <div class="container-fluid">
+      <div class="card text-center" id="summary">
 
     <img src="images/neo.jpg" alt="Neo" id="img-profile" class="img-circle">
     <h1>Fernando Gerlein</h1>
@@ -46,9 +68,9 @@
         </a>
       </li>
     </ul>
-          </div>
+  </div>
 
-<div class="card text-center">
+<div class="card text-center" id="favorite-movies">
     <h2>My Favorite movies</h2>
     <table id="movies">
     <table>
@@ -85,7 +107,7 @@
 
 </div>
 
-<div class="card text-center">
+<div class="card text-center" id="footer">
     <h2>About this page</h2>
     This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
 
@@ -104,11 +126,11 @@
      <li>
        <a href="#">
          <i class="fa fa-star"></i>
-       </a>
-     </li>
-    </ul>
-      </div>
-
-  </body>
-</html>
-
+                  </a>
+                </li>
+               </ul>
+             </div>
+           </div>
+         </div>
+       </body>
+     </html>
